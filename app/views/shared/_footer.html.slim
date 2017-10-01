@@ -2,8 +2,7 @@ footer
   .container
     ul.list-inline.list-footer
       li
-        = link_to 'http://diowa.com' do
-          = image_tag 'diowa.svg', alt: 'diowa', height: 28, width: 90, class: 'diowa-logo'
+        = link_to t('Sumeru Taxi), 'http://sumerutaxi.com' 
       - if user_signed_in?
         li= link_to t('about'), :about
         li= link_to t('how_it_works'), :how_it_works
@@ -11,7 +10,7 @@ footer
           li= link_to t('terms'), :terms
       li
         span.fa.fa-github<>
-        = link_to 'diowa/icare', APP_CONFIG.repository_url
+        = link_to 'dkashikar/icare', APP_CONFIG.repository_url
       - if user_signed_in?
         li
           span.fa.fa-bullhorn<>
