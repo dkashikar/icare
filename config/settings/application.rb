@@ -16,7 +16,7 @@ SimpleConfig.for :application do
   set :single_process_mode, true
 
   set :currency, '.00 Rs'
-  set :fuel_consumption, 0.12
+  set :fuel_consumption, 15
   set :fuel_currency, 'Rs'
 
   set :costs_calculation_service_link, 'http://servizi.aci.it/CKInternet/'
