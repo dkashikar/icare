@@ -18,6 +18,8 @@ class Itinerary
   has_many :conversations, as: :conversable, dependent: :destroy
 
   # Details
+  field :start_address, type: String, default: "Art of Living International Center, Bangalore"
+  field :end_address, type: String, default: "Kempegowda International Airport, Bangalore"
   field :description
   field :num_people, type: Integer
   field :smoking_allowed, type: Boolean, default: false
