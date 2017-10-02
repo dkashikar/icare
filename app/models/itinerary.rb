@@ -20,12 +20,12 @@ class Itinerary
   # Details
   field :start_address, type: String, default: "Art of Living International Center, Bangalore"
   field :end_address, type: String, default: "Kempegowda International Airport, Bangalore"
-  field :description
+  field :description, type: String, default: "Starting from Aparna/Annapurna Gate"
   field :num_people, type: Integer
-  field :smoking_allowed, type: Boolean, default: false
+  field :smoking_allowed, type: Boolean, default: true
   field :pets_allowed, type: Boolean, default: false
-  field :fuel_cost, type: Integer, default: 0
-  field :tolls, type: Integer, default: 0
+  field :fuel_cost, type: Integer, default: 18
+  field :tolls, type: Integer, default: 120
   field :pink, type: Boolean, default: false
   field :round_trip, type: Boolean, default: false
   field :leave_date, type: DateTime
