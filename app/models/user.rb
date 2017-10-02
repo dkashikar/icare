@@ -84,7 +84,7 @@ class User
 
   validates :gender, inclusion: GENDER, allow_blank: true
   validates :time_zone, inclusion: ActiveSupport::TimeZone.all.map(&:name)
-  validates :vehicle_avg_consumption, numericality: { greater_than: 0, less_than: 10 }, presence: true
+  validates :vehicle_avg_consumption, numericality: { greater_than: 0, less_than: 50 }, presence: true
 
   def age
     ((Time.current.to_s(:number).to_i - birthday.at_midnight.to_s(:number).to_i) / 10e9.to_i) if birthday?
