@@ -51,7 +51,7 @@ en-US:
       show_on_map: Show on map
       facebook_verified: Verified on Facebook
 
-  meta_title: "Open Source Carpooling Platform: %{appname}"
+  meta_title: "Sumeru Carpooling Platform: %{appname}"
   meta_description: "Share your itineraries, save money and earn friends."
 
   loading: Loading...
@@ -240,10 +240,10 @@ en-US:
       vehicle_information: Vehicle info
       user_profile_details: Profile details are updated from Facebook after each login.
       vehicle_avg_consumption_help: Use a point to separate decimals. This value is used in the fuel cost estimate when creating a new itinerary.
-      vehicle_avg_consumption_note_html: "Note: Write in this field the %{fuel} value of %{proportional_costs} table"
+      vehicle_avg_consumption_note_html: " "
       fuel: Fuel
       proportional_costs: "PROPORTIONAL COSTS %{fuel_currency}/km"
-      km_costs_calculation_link: Calculate the kilometrical cost of your vehicle on the ACI website (Italian)
+      km_costs_calculation_link: " "
       send_email: Send an email when
       send_email_at_address: "We will send emails at the following address:"
       application_settings: Application settings
@@ -268,11 +268,11 @@ en-US:
       app_user: "A user of %{appname}"
       expenses_to_share: Expenses to share
       smoking:
-        allowed: Smoking allowed
-        forbidden: Smoking forbidden
+        allowed: Timing Flexible
+        forbidden: Timing Fixed
       pets:
-        allowed: Pets allowed
-        forbidden: Pets forbidden
+        allowed: Ladies only
+        forbidden: Ladies or Gents
     edit:
       title: "Edit itinerary"
     new:
